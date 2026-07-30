@@ -1,8 +1,24 @@
 aid: affirmed-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affirmed-networks.png
 name: Affirmed Networks
-description: 'Affirmed Networks is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: cloud. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Affirmed Networks is a cloud-native mobile core networking company, acquired
+  by Microsoft in 2020 and now operating as part of the Azure for Operators initiative. It builds
+  virtualized, fully software-based mobile network functions for telecommunications operators,
+  including a Virtual Evolved Packet Core (vEPC), the Affirmed UnityCloud 5G Core, private network
+  services, network slicing, and analytics. Its packet-core technology underpins Microsoft''s Azure
+  Operator Nexus and Azure Operator 5G Core platforms. Affirmed serves carriers and service providers
+  modernizing their networks and does not expose a public developer API or SDK surface.'
 url: https://raw.githubusercontent.com/api-evangelist/affirmed-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: bessemer-venture-partners-portfolio
@@ -14,6 +30,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Cloud
+- Telecommunications
+- 5G
+- Mobile Core
+- Networking
+- NFV
+- Microsoft
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/affirmed-networks-domain-security.yml
 - type: Website
   url: https://www.affirmednetworks.com
+- type: Support
+  url: https://community.affirmednetworks.com/
+- type: Blog
+  url: https://www.affirmednetworks.com/category/press-release/
+- type: PrivacyPolicy
+  url: https://www.affirmednetworks.com/privacy/
+- type: TermsOfService
+  url: https://go.microsoft.com/fwlink/?LinkID=206977
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
