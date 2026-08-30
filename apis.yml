@@ -54,6 +54,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/microsoft/
+  name: Microsoft
+  x-relationship: acquired
+  x-evidence: "Affirmed Networks is a cloud-native mobile core networking company, acquired by Microsoft in 2020 and now operating as part of the Azure for Operators initiative."
 - type: DomainSecurity
   url: security/affirmed-networks-domain-security.yml
 - type: Website
